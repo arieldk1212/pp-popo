@@ -9,7 +9,7 @@ void close_file(FILE* filename){
   filename.close();
 }
 
-
+https://db.in.tum.de/teaching/ss20/c++praktikum/slides/lecture-12.pdf?lang=de
 int main() {
 
   // std::system("pidstat | grep spotify >> ProcessInfo.txt");
