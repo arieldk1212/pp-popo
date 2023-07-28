@@ -1,0 +1,24 @@
+{
+  "files.associations": {
+    "cstdio": "cpp",
+    "fstream": "cpp",
+    "iostream": "cpp",
+    "atomic": "cpp",
+    "*.tcc": "cpp",
+    "chrono": "cpp",
+    "cmath": "cpp",
+    "complex": "cpp",
+    "string": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp",
+    "random": "cpp",
+    "functional": "cpp",
+    "future": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "sstream": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp"
+  },
+  "files.autoSave": "afterDelay"
+}
