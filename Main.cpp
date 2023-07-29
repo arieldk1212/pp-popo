@@ -1,7 +1,8 @@
 #include <iostream>
-#include "extras.h"
+#include "afile.h"
+#include "tyepos.h"
 
-using namespace EXR;
+using namespace SYS;
 
 int main() {
 

@@ -1,8 +1,13 @@
 #include <iostream>
 #include <cstring>
+#include <map>
+#include <vector>
+#include <iterator>
 
 #define LOG(x) std::cout << x
 // #define INTEGER int
+
+
 
 void increment(int& value);
 
@@ -18,6 +23,19 @@ static int s_Value = 5;
 extern int c_Value;
 
 int main() {
+
+  std::vector<int> vec = {1, 2, 3, 4, 5};
+
+  std::vector<int>::iterator ptr;
+
+  for (ptr = vec.begin(); ptr < vec.end(); ptr++) {
+    std::cout << *ptr;
+  }
+
+  std::map<int, std::string> student;
+  student[1] = "Ariel";
+  student.size();
+
   int var = 8;
   int& check = var;
   char* buffer = new char[8];
