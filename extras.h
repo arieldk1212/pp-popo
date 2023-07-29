@@ -31,19 +31,21 @@ namespace EXR {
       if(!file.is_open()) {
         std::cout << "File Status Error";
       }else {
-        file << std::system(("pidstat >> " + filename + ".txt").c_str());
+        file << std::system(("pidstat -u >> " + filename + ".txt").c_str());
         file.close();
       }
+    }
+
+    void getProcess() {
+      
     }
   };
 
 
-  void getProcesses();
 
 
   
 
-  void getProcesses();
 
 
 
