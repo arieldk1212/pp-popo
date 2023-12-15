@@ -18,7 +18,7 @@ int main() {
   string* fptr = &filename;
 
   File file;
-  file.filename = *fptr;
+  file.filename = *fptr; 
   file.fCreation(*fptr);
 
 

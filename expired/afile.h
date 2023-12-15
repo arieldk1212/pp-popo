@@ -11,7 +11,7 @@ public:
   string filename;
 
   struct CPU {
-    float check;
+    float check; 
   };
   // this struct will contain data for the backend's DB desired Model.
   struct  Process {
