@@ -1,0 +1,11 @@
+flask
+pymongo
+flask-pymongo
+grpcio
+grpcio-tools
+python-decouple
+
+numpy
+# torch
+# torchvision
+python-chess

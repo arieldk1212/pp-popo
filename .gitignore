@@ -33,3 +33,10 @@
 *.app
 .swp
 *.swp
+
+venv
+.env
+env
+
+.docker
+docker
