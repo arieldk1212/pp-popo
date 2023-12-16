@@ -31,6 +31,5 @@
 *.executable
 *.out
 *.app
-*.txt
 .swp
 *.swp

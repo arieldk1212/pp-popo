@@ -1,0 +1,7 @@
+1.cpp program computes the NN algorithms -  functions as the AI
+    chess model, interacts with the flask backend thru gRPC by getting
+    from the backend the users choice, and sending the bot response
+
+2.flask backend manages overall the services including AI functions,
+    an online 1v1 option against real person, chess timer,
+    DB for user account option to record previous games

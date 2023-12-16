@@ -1,0 +1,6 @@
+torch
+numpy
+grpcio
+torchvision
+grpcio-tools
+python-chess
